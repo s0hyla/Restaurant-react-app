@@ -1,0 +1,235 @@
+.numbers {
+  background-color: #a9984a;
+  padding: 25px 0px;
+  font-weight: bold;
+  text-align: center;
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.numbers row {
+  margin: 20px 0px;
+}
+.numbers h2 {
+  font-size: 50px;
+  font-weight: bold;
+  margin: 10px 0px;
+  color: #fff;
+}
+.numbers h6 {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+/* css to the pride and  section */
+.pride,
+.ingredients {
+  background-color: transparent;
+  padding: 25px 0px;
+  font-family: "Short Stack", cursive;
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-top: 50px;
+}
+.pride img,
+.ingredients img {
+  width: 100%;
+  max-width: 100%;
+  height: 90%;
+  border-radius: 10px;
+  vertical-align: middle;
+  margin: 0px;
+}
+.pride h2,
+.ingredients h2 {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 70px 0px 40px 0px;
+  color: #a9984a;
+  line-height: 50px;
+}
+.pride p,
+.ingredients p {
+  letter-spacing: 1px;
+  font-size: 15px;
+  color: #333;
+}
+.pride button,
+.ingredients button,
+.blogs button {
+  background-color: #a9984a;
+  border: 2.5px solid #a9984a;
+  box-sizing: border-box;
+  width: 140px;
+  height: 55px;
+  text-align: center;
+  margin-top: 20px;
+  transition: 0.3s ease-in-out;
+}
+.pride button a,
+.ingredients button a,
+.blogs button a {
+  display: block;
+  color: #fff;
+  text-decoration: none !important;
+  font-weight: bold;
+}
+.pride button:hover a,
+.ingredients button:hover a,
+.blogs button:hover a {
+  color: #a9984a;
+  transition: 0.2s ease;
+}
+.pride button:hover,
+.ingredients button:hover,
+.blogs button:hover {
+  background-color: #fff;
+}
+/* css to the ingredients section */
+.ingredients ul li {
+  list-style-type: square;
+  color: #333 !important;
+  margin-top: 10px;
+}
+/* css to the paralex section */
+.paralex {
+  background: url(./../../assets/44.jpg) center no-repeat;
+  background-size: cover;
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+  height: auto;
+  overflow: hidden;
+  padding: 30px 0px;
+  margin-top: 0px;
+}
+.paralex .row {
+  margin: 60px 0px;
+}
+.paralex h2 {
+  font-family: "Short Stack", cursive;
+  width: 100%;
+  margin: 20px 0px;
+  font-weight: bold;
+  color: #a9984a;
+  line-height: 50px;
+}
+.paralex p {
+  letter-spacing: 1px;
+  font-size: 15px;
+  color: #444 !important;
+  line-height: 32px;
+}
+.paralex a {
+  color: #39050d;
+  font-size: 20px;
+  margin: 20px 0px;
+  text-decoration: none !important;
+}
+/* css to the blogs section */
+.blogs {
+  margin-top: 50px;
+  padding: 25px 0px;
+  width: 100%;
+  height: auto;
+}
+.blogs .row:first-child {
+  text-align: center;
+  margin: 25px 0px;
+}
+.blogs h2 {
+  font-size: 45px;
+  font-weight: bold;
+  width: 100%;
+  margin: 10px 0px;
+  color: #a9984a;
+  font-family: "Short Stack", cursive;
+  line-height: 50px;
+}
+.blogs .box {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+  border: 1px solid #f6f6f6;
+  box-sizing: border-box;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.blogs .box span {
+  display: block;
+  color: #454444fa !important;
+  letter-spacing: 1px;
+  font-size: 16px;
+  line-height: 28px;
+  margin: 10px 0px;
+}
+.blogs .box img {
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+}
+.blogs .box h5 {
+  color: #a9984a;
+  font-weight: bold;
+  font-family: "Short Stack", cursive;
+  font-size: 24px;
+  margin: 15px 0px;
+}
+.blogs .box h6 {
+  color: #a9984a;
+  font-size: 21px;
+  font-weight: bold;
+  font-family: "Short Stack", cursive;
+}
+/* css to the slider section */
+.sliders {
+  background-color: #a9984a;
+  border: 1px solid #a9984a;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 45px 0px;
+}
+.sliders .container .row{
+  display: block;
+  padding: 10px;
+  margin:35px 45px ;
+  background-color: #fff;
+  border-radius: 15px;
+}
+.caption-text-black {
+  margin-top: 10px;
+  color: #39050D;
+}
+/* .sliders .Carousel { 
+  margin: 0px 0px;
+   border: 1px solid #fff; 
+  box-sizing: border-box;
+  border-radius: 10px;
+} */
+.sliders img {
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+  margin: 22px 0px;
+  margin-bottom: 150px;
+}
+.sliders .container p{
+  color: #444;
+  margin-top: 20px;
+  padding: 20px;
+
+}
+.sliders .container span{
+  font-size: 19px;
+  padding: 30px;
+  font-weight: bold;
+
+}
+.carousel-item{
+ height: 330px
+}
+

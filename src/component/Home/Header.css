@@ -1,0 +1,48 @@
+header{
+    background: url('../../assets/Header.png') center no-repeat;
+    background-size: cover ;
+    width: 100%;
+    max-width: 100%;
+    text-align: left;
+    height: auto;
+    overflow: hidden;
+    padding: 25px 0px;
+    margin-top: 0px;
+    
+
+}
+header .row{
+    margin: 75px 0px;
+}
+header h2{
+    color:#39050D;
+    font-weight:bold;
+   margin-top: 160px; 
+   font-size:50px;
+   line-height: 55px;
+   font-family: 'Short Stack', cursive;
+   width: 80%;
+}
+header p{
+    color:#000000;
+    font-family: 'Short Stack', cursive;
+    font-weight:bold;
+    margin: 30px 0px;
+
+}
+header button{
+    width: 150px;
+    height: 40px;
+    background-color: #A9984A;
+    border: 1px solid #A9984A;
+    box-sizing: border-box;
+    text-align: center;
+    color: #fff;
+    margin:20px 10px 20px 0px;
+    font-weight: bold;
+    
+}
+header button:last-of-type{
+    background-color: #fff;
+    color:#A9984A;
+}

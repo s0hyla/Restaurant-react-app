@@ -1,0 +1,32 @@
+nav{
+    background-color: #ffffff;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    border-radius: 1px;
+ 
+}
+nav a{
+    color:#A9984A !important;
+    font-size: 15px;
+    font-weight:bold;
+    letter-spacing: 1px;
+}
+nav #navLink{
+    background-color: #A9984A;
+    border: 1px solid #A9984A;
+    box-sizing: border-box;
+    color: #ffffff !important;
+
+}
+nav #navLink:hover{
+    background-color: transparent;
+    color: #A9984A !important;
+    transition: .2s ease-in-out;
+
+}
+img{
+    border-radius: 0px;
+    width: 35px;
+    height: 40px;
+}

@@ -1,0 +1,64 @@
+.Footer{
+    padding: 0px 0px;
+    margin-top: 10px;
+}
+.Footer .container{ 
+    color:#39050D;
+    background-color: #fff;
+    
+    
+}
+.Footer .container .row{
+    padding: 28px;
+    margin: 45px 100px;
+    border: 1px #39050D;
+    border-radius: 10%;
+}
+
+.container .row .name-res{
+    color: #a9984a;
+    font-family: "Short Stack", cursive !important;
+   font-size: 30px;
+   font-weight: bold;
+   margin-top: 10px;
+  
+}
+.container .row .dis{
+    color: #a9984a;
+}
+.container .row span{
+    color: #39050D;  
+}
+
+.footer-icons i{
+margin-left: 20px;
+font-size: 25px;
+letter-spacing: 20px;
+
+}
+.footer-icons i:hover{
+    color: #a9984a;
+    cursor: pointer;
+}
+.row ul{
+    list-style: none;
+    padding-left: 5px;
+}
+.row ul a:hover{
+    color: #a9984a;
+    transition: 0.5s;
+    font-size: 19px;
+}
+.Last-footer{
+    text-align: center;
+  background-color: #a9984a;
+  padding:4px;
+   
+}
+.Last-footer span{
+    color: #39050D;
+    font-size: 14px;
+  
+}
+
+   
